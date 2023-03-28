@@ -10,7 +10,10 @@ nav {
 
 }
 
+h1{
+   color: White; font-family: verdana; font-size: 200%;text-align:center; background-color: Black;;
 
+}
 
 h2{
    color: White; font-family: verdana; font-size: 200%;text-align:left;
@@ -28,8 +31,15 @@ b2{
 }
 
 
-
-
 Img scr{
 image-resolution: 50px 
+}
+
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: var(--bs-body-bg);
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  max-width:300px;
+  height: 300px;
 }
